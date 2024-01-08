@@ -10,7 +10,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 		<>
 			<main>
 				<section className="flex flex-row justify-between">
-					<aside className="bg-surface text-white w-72 sidebar px-4 py-4">
+					<aside className="bg-surface text-white w-72 left-0 top-0 sticky h-screen overflow-x-hidden overflow-y-scroll px-4 py-4">
 						<div className="flex justify-between items-center">
 							<div className="flex items-center py-2 gap-3">
 								<Image
