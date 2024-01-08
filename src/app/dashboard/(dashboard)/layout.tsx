@@ -44,8 +44,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
 							/>
 						))}
 
-						<div className="flex items-center bottom-0 gap-2 bg-[#353c53] px-3 py-2 rounded-sm">
-							<CreditCardIcon className="bg-[#494f64] p-1 h-8 w-8 rounded-sm" />
+						<div className="flex items-center bottom-0 gap-2 bg-[#353c53] px-3 py-2 rounded-md">
+							<CreditCardIcon className="bg-[#494f64] p-1 h-8 w-8 rounded-md" />
 							<div>
 								<p className="text-sm text-gray-400">
 									Available credits
