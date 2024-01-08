@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+	height: 100vh;
+	left: 0;
+	position: sticky;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	top: 0;
+}
